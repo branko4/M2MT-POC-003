@@ -1,0 +1,24 @@
+app-model {
+  width: 45vw;
+  display: inline-block;
+}
+
+main, svg {
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 80vh;
+  background-color: transparent;
+}
+
+svg {
+  z-index: 1;
+}
+
+main {
+  z-index: 10;
+  pointer-events: none;
+}
